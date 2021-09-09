@@ -30,7 +30,7 @@ export default {
       showSubData: this.showSub,
       subData: this.sub,
       mainData: this.main,
-      subDataFor: [],
+      subDataFor: this.showSub ? this.sub : [],
     };
   },
   props: {

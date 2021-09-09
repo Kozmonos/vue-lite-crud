@@ -1,6 +1,7 @@
 <template>
   <div>
     <Cruds
+      :showSub="true"
       :main="main[0]"
       :sub="sub[0]"
       @delete-sub="deleteSub"
@@ -25,8 +26,6 @@ export default {
   data() {
     return {
       showSub: false,
-      mainIcons: ["refresh", "times"],
-      subIcons: [],
       main: [
         {
           id: 1,
