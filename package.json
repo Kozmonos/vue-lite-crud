@@ -1,0 +1,40 @@
+{
+  "name": "vue-lite-crud",
+  "description": "Vue crud component",
+  "version": "0.0.7",
+  "main": "dist/crud.common.js",
+  "unpkg": "dist/crud.umd.min.js",
+  "bugs": {
+    "url": "hhttps: //github.com/Kozmonos/vue-lite-crud/issues"
+  },
+  "homepage": "https: //github.com/Kozmonos/vue-lite-crud#readme",
+  "license": "ISC",
+  "author": {
+    "name": "Onur Ayçiçek",
+    "email": "onur@kozmonos.com",
+    "url": "https://kozmonos.com/"
+  },
+  "keywords": [
+    "vue crud component",
+    "vue crud"
+  ],
+  "files": [
+    "dist/**/*",
+    "assets/**/*",
+    "README.md"
+  ],
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --target lib --name crud src/Cruds.vue",
+    "lint": "vue-cli-service lint"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "~4.5.0",
+    "vue-svg-inline-loader": "^2.1.2",
+    "vue": "^2.6.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kozmonos/vue-lite-crud.git"
+  }
+}
