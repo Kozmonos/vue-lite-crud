@@ -84,8 +84,3 @@ export default {
   },
 };
 </script>
-<style>
-* {
-  outline: 0;
-}
-</style>
